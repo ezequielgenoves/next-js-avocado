@@ -32,3 +32,18 @@ type TAPIAvoResponse = {
   data: TProduct[]
   error?: string
 }
+
+type TMenuEntry = {
+  id: string
+  label: string
+  href: string
+}
+
+type TContext = {
+  items: TProduct[]
+  menuEntries: TMenuEntry[]
+  activeTab: string
+  changeActiveTab: (tab: string) => void
+  cartItems: number
+  addToCart: () => void
+}

@@ -1,8 +1,12 @@
+import CardList from '@components/CardList/CardList'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>Platzi and Next.js!</div>
+    <div className='mainPage'>
+      <h1 className='mainPage-title'>Shop your 🥑</h1>
+      <CardList />
+    </div>
   )
 }
 

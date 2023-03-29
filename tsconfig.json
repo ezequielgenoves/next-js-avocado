@@ -3,7 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@database": ["database/db.ts"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@appContext": ["context/AppContext.ts"],
+      "@style.css": ["style.css"],
+      "@hooks/*": ["hooks/*"]
     },
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
